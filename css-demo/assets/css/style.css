@@ -1,3 +1,53 @@
-body{
-    background-color:darkolivegreen;
+
+/* Color Theme Swatches in Hex 
+.Pueblo-Harvest-Final-1-hex { color: #FBD8B0; }
+.Pueblo-Harvest-Final-2-hex { color: #3D505D; }  Blue
+.Pueblo-Harvest-Final-3-hex { color: #9F3A37; }
+.Pueblo-Harvest-Final-4-hex { color: #CB5940; }
+.Pueblo-Harvest-Final-5-hex { color: #DC8729; }
+*/
+
+
+/*  ----------- Box Sizing ------------  */
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*  ----------- Global Styles ------------  */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin:0;   /*----brings margins all the way to the edge----*/
+}
+
+header.primary{
+    background-color:#3D505D;
+    text-align:center;  /*-------centers header text---------*/
+    color:#ffffff;   /*--------text color----------*/
+
+    /*long form*/
+    padding-top:40px;
+    padding-right:40px;
+    padding-bottom:40px;
+    padding-left:40px;
+
+    /* short form, T, R, B, L 
+    padding:40px 40px 40px 40px;
+    */
+
+    text-shadow: 1px 1px #000000;
+}
+
+header.primary h1{
+    font-size:2.4rem;
+    margin:20px 0;
+}
+
+header.primary h1 a{
+    color:#ffffff;
+    text-decoration:none;
 }

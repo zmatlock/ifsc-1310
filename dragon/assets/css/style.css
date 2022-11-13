@@ -1,10 +1,9 @@
 /* Color Theme Swatches in Hex 
-.Pueblo-Harvest-Final-1-hex { color: #FBD8B0; }
-.Pueblo-Harvest-Final-2-hex { color: #3D505D; }  Blue
-.Pueblo-Harvest-Final-3-hex { color: #9F3A37; }
-.Pueblo-Harvest-Final-4-hex { color: #CB5940; }
-.Pueblo-Harvest-Final-5-hex { color: #DC8729; }
-*/
+.UI/UX-1-hex { color: #0B1426; } dark blue
+.UI/UX-2-hex { color: #6F8C51; } dark green
+.UI/UX-3-hex { color: #AFD971; } light green
+.UI/UX-4-hex { color: #D8D9D7; } gray
+.UI/UX-5-hex { color: #A5A686; } beige */
 
 
 /*  ----------- Box Sizing ------------  */
@@ -60,5 +59,45 @@ body {
     line-height:1.4rem;
 }
 
+header.primary{
+    background-color:#0B1426;
+    text-align:center;
+    color:#074c8d;
+    padding:40px 40px 40px 40px;
+    text-shadow: 1px 1px #000000
+}
 
+header.primary h2{
+    font-size:1.1rem;
+    margin:20px auto 30px;
+}
 
+header.primary nav{
+    max-width:auto;
+}
+
+header.primary ul{
+    padding:10px 0 0 0;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+header.primary li{
+    list-style-type:none;
+}
+
+header.primary nav a{
+    color:#D8D9D7;
+    text-decoration:none; 
+    background:#000000;
+    background:#074c8d;
+    padding:8px 16px;
+    border-radius:15px 50px; 
+    transition:.5s;
+    border: 2px outset rgba(0,0,0,.6);
+}
+
+header.primary nav a:hover, header.primary nav a:active{
+    background:rgba(0,0,0,.5);
+}

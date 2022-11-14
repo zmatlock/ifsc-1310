@@ -101,3 +101,12 @@ header.primary nav a{
 header.primary nav a:hover, header.primary nav a:active{
     background:rgba(0,0,0,.5);
 }
+
+#intro h2{
+    color:#074c8d;
+    border-bottom: 2px solid #074c8d;
+}
+
+#articles figcaption{
+    font-size:.8rem
+}

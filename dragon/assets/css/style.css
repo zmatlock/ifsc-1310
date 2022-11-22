@@ -49,7 +49,7 @@ html {
 
 /*  ----------- Responsive Images ------------  */
 img{
-    max-width:100%;
+    max-width:50%;
 }
 
 /*  ----------- Global Styles ------------  */
@@ -59,6 +59,7 @@ body {
     line-height:1.4rem;
 }
 
+/*  ----------- HOME PAGE STYLING ------------  */
 header.primary{
     background-color:#0B1426;
     text-align:center;
@@ -110,3 +111,44 @@ header.primary nav a:hover, header.primary nav a:active{
 #articles figcaption{
     font-size:.8rem
 }
+
+/*  ----------- HISTORY PAGE STYLING ------------  */
+#content h2{
+    color:#074c8d;
+    border-bottom: 2px solid #074c8d;
+}
+
+table{
+    width:100%;
+    border:1px solid #000000;
+    border-collapse:collapse;
+}
+
+table caption{
+    margin-bottom:10px;
+    font-weight:bold;
+}
+
+th{
+    border:1px solid #000000;
+    background-color:#074c8d;
+    color:#ffffff;
+    padding:5px;
+}
+
+tr:hover{
+    background-color:rgba(0,0,0,.1);
+}
+
+td{
+    border:1px solid #000000;
+    padding:2px;
+}
+
+/*  ----------- FAQ PAGE STYLING ------------  */
+
+#content ol li{
+    font-weight:bold;
+    padding: 10px 0px
+}
+

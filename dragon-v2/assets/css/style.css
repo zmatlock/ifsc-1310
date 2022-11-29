@@ -60,7 +60,9 @@ body {
 }
 
 /*  ----------- HOME PAGE STYLING ------------  */
-
+body{
+    background-color:#acaeaa;
+}
 header.primary{
     background-color:#0B1426;
     text-align:center;

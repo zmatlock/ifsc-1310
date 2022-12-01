@@ -1,3 +1,7 @@
-body{
-    background-color:rgb(127, 128, 125);
+body {
+    background-color:honeydew;
+    font-family: 'Roboto', sans-serif;
+    margin:20px;
+    line-height:1.4rem;
+    
 }
